@@ -48,6 +48,7 @@ const isMyAction = (action: Action): action is MyAction => {
 }
 
 interface ChannelItem {
+  type: string
   someField: string
 }
 declare const channel: Channel<ChannelItem>
